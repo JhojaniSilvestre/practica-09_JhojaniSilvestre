@@ -1,0 +1,21 @@
+:root{
+	background-color:green;
+	color:white;
+	line-height:2rem;
+	margin-top:10%;
+	margin-left:15%;
+}
+fieldset{
+	width:50%;
+}
+label + input {
+	margin-left:2%;
+}
+input + label {
+	margin-left:2%;
+}
+input[readonly]{
+	color:white;
+	background-color:blue;
+	border:none;
+}

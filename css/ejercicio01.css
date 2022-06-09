@@ -1,0 +1,36 @@
+:root {
+	font-family:Calibri;
+	font-size:12pt;
+	font-weight:bold;
+	color:white;
+	background-color:green;
+	line-height:1.75rem;
+}
+
+form > label{
+	position:absolute;
+	left:10%; 
+}
+
+label + input[type="text"] , select  {
+	position:absolute;
+	left:30%; 
+}
+.error {
+	position:absolute;
+	left:45%;
+	color:red;
+	background-color:green;
+	border:none;
+}
+
+input[type="submit"] {
+	position:absolute;
+	left:25%;
+	bottom:50px;
+}
+fieldset{
+	position:absolute;
+	left:10%; 
+	width:50%;
+}

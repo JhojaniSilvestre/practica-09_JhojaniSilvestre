@@ -1,0 +1,21 @@
+:root{
+	background-color:green;
+	color:yellow;
+	line-height:1.6rem;
+	margin-top:3%;
+	margin-left:10%;
+}
+table, th, td {
+	border:solid 1px black;
+}
+label + input {
+	margin-left:2%;
+}
+fieldset{
+	margin-left:5%;
+	margin-top:5%;
+	width:50%;
+}
+.salamanca{
+	border:2px solid red;
+}
